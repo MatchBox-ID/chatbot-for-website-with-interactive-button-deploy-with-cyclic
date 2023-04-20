@@ -18,9 +18,9 @@
   }
 }
 {
-  "name": "nama-proyek",
+  "name": "chatbot-melayang",
   "version": "1.0.0",
-  "description": "Deskripsi proyek",
+  "description": "chatbox with nodejs",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
