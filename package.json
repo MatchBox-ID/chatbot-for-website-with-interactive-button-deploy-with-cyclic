@@ -17,3 +17,23 @@
     "cyclic": "^4.4.0"
   }
 }
+{
+  "name": "nama-proyek",
+  "version": "1.0.0",
+  "description": "Deskripsi proyek",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "cyclic build"
+  },
+  "dependencies": {
+    "hyperapp": "^2.0.9"
+  },
+  "builds": {
+    "web": {
+      "distDir": "dist/web",
+      "html": "index.html",
+      "routeFallback": "index.html"
+    }
+  }
+}
