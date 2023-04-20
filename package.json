@@ -1,39 +1,27 @@
 {
-  "name": "chatbot-melayang",
+  "name": "express-hello-world",
   "version": "1.0.0",
-  "description": "A floating chatbot with message button.",
+  "description": "Expressjs Hello World example to provide faster start deploying on Cyclic platform",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js"
+    "serve": "nodemon --watch . index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "chatbot",
-    "floating",
-    "message button"
-  ],
-  "author": "Matchbox",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matchbox-id/chatbot-for-website-with-interactive-button-deploy-with-cyclic.git"
+  },
+  "author": "Cyclic Software",
   "license": "MIT",
-  "dependencies": {
-    "cyclic": "^4.4.0"
-  }
-}
-{
-  "name": "chatbot-melayang",
-  "version": "1.0.0",
-  "description": "chatbox with nodejs",
-  "main": "index.js",
-  "scripts": {
-    "start": "node dist/index.js",
-    "build": "cyclic build"
+  "bugs": {
+    "url": "https://github.com/matchbox-id"
   },
+  "homepage": "https://github.com/matchbox-id",
   "dependencies": {
-    "hyperapp": "^2.0.9"
+    "express": "^4.17.1"
   },
-  "builds": {
-    "web": {
-      "distDir": "dist/web",
-      "html": "index.html",
-      "routeFallback": "index.html"
-    }
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
