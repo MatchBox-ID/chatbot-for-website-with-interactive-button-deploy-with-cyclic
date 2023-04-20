@@ -1,0 +1,19 @@
+{
+  "name": "chatbot-melayang",
+  "version": "1.0.0",
+  "description": "A floating chatbot with message button.",
+  "main": "index.js",
+  "scripts": {
+    "start": "cyclic index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "floating",
+    "message button"
+  ],
+  "author": "Matchbox",
+  "license": "MIT",
+  "dependencies": {
+    "cyclic": "^4.4.0"
+  }
+}
