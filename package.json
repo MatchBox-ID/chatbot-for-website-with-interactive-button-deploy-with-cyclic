@@ -4,7 +4,7 @@
   "description": "A floating chatbot with message button.",
   "main": "index.js",
   "scripts": {
-    "start": "cyclic index.js"
+    "start": "node dist/index.js"
   },
   "keywords": [
     "chatbot",
@@ -23,7 +23,7 @@
   "description": "chatbox with nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node dist/index.js",
     "build": "cyclic build"
   },
   "dependencies": {
